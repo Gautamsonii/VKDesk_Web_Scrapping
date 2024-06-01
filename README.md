@@ -25,3 +25,4 @@ git clone https://github.com/Gautamsonii/VKDesk_Web_Scrapping.git
  3.pymongo
  4.time
  5.logging
+ 6.os
