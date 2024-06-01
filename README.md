@@ -1,27 +1,27 @@
-# VKDesk_Web_Scrapping
+## Data Scraper
 
-# Data Scraper
+This project consists of multiple Python scripts for scraping data from various sources and storing it in a MongoDB database.
 
-This repository contains a set of Python scripts to scrape data from the websites and store it in a MongoDB database.
+## Scripts
 
-## Files
+- `ajax.py`: Scrapes movie data using Ajax requests.
+- `advanced.py`: Scrapes advanced movie data.
+- `forms.py`: Scrapes movie data from form submissions.
+- `config.py`: Configuration file for MongoDB URI.
+- `database.py`: Module for connecting to MongoDB.
+- `main.py`: Utility script to run all scrapers and store data in the database.
 
-1. `scraper.py`: Script to scrape film data for a range of years.
-2. `database.py`: Module containing the MongoDB database connection.
-3. `ajax.py`: Script to fetch AJAX film data and store it in the database.
-4. `advanced.py`: Script to fetch normal data from front-end of website
-5.  'main.py':  
-6. 'config.py': Configuration file for MongoDB URI.
+## Installation
 
-## Usage
+1. Clone the repository:
 
-1. Ensure you have Python installed on your system.
-2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Modify the MongoDB connection details in `database.py` if necessary.
-4. Run `scraper.py` to start scraping film data for the specified range of years.
-5. The scraped data will be stored in the MongoDB database.
+```bash
+git clone https://github.com/Gautamsonii/VKDesk_Web_Scrapping.git
 
-## Important Note
+## Libraries Used
 
-Make sure to handle sensitive information such as database credentials securely. Avoid hardcoding credentials directly into your scripts.
-
+ 1.requests
+ 2.beautifulsoup4
+ 3.pymongo
+ 4.time
+ 5.logging
